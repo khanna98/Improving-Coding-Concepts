@@ -5,7 +5,7 @@ class Node:
         self.data = data
     
     def printTree(self):
-        print(self.data);
+        print(self.data)
 
 if __name__ == '__main__':
     root = Node(10)
