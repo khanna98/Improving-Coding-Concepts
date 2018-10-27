@@ -1,59 +1,41 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-
-struct Node{
+struct Node
+{
     int data;
     struct Node *next;
-};
+}*head;
 
-
-class LinkedList{
-    struct Node *head;
-public:
-    LinkedList(){
-        head = NULL;
-    }
-
-    // Create a node in Linked List
-    void createNode(int val){
-        Node *nn = new Node;
-        nn->data = val;
-        nn->next = NULL;
-        head = nn;
-    }
-    // Insert a node in Linked List
-    void insertNodeBeg(int val){
-        if(head == NULL){
-            createNode(val);
-        }
-        else{
-            Node *nn = new Node;
-            nn->data = val;
-            nn->next = head;
-            head = nn;
-        }
+class LinkedList
+{
+  public:
+    void insertNodeBeg(struct Node** ptr, int val){
+        struct Node *new_node = (struct Node *)malloc(sizeof(struct Node));
+        new_node->data = val;                                                                     /* 3. Make next of new node as head */
+        new_node->next = (*ptr);                                                                  /* 4. move the head to point to the new node */
+        (*ptr) = new_node;
     }
 
     // Print the Linked List
-    void printList(){
-        Node *ptr = head;
-        for(ptr=head;ptr!=NULL;ptr=ptr->next){
-            cout<< ptr->data<<" ";
+    void printList(struct Node *ptr){
+        for(; ptr != NULL; ptr = ptr->next){
+            cout << ptr->data << " ";
         }
-        cout<<endl;
+        cout << endl;
     }
 };
 
 int main(void){
     LinkedList ll;
-    int n,a;
-    cout<<"Enter the size of list : ";
-    cin>>n;
-    cout<<"Enter the elements of the list : "<<endl;
-    for(int i=0;i<n;i++){
-        cin>>a;
-        ll.insertNodeBeg(a);
+    head = NULL;
+    int n, a;
+    cout << "Enter the size of list : ";
+    cin >> n;
+    cout << "Enter the elements of the list : " << endl;
+    for(int i = 0; i < n; i++){
+        cin >> a;
+        ll.insertNodeBeg(&head, a);
     }
-    ll.printList();
+    ll.printList(head);
 }
