@@ -33,4 +33,4 @@ int main(void){
     selectionSort(arr,n);
     cout<<"Sorted Array : ";
     printArray(arr,n);
-}
+    return 0;
