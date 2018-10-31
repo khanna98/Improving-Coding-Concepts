@@ -1,5 +1,4 @@
-# Improving Coding Concepts in JavaScript
-
+# Improving Coding Concepts 
 - This is a repository for the implementation of various concepts in *different languages* :smile:
 - Feel free to look at the code and use it. :thumbsup:
 
