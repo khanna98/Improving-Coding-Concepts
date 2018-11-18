@@ -26,6 +26,6 @@ class GFG {
 
             System.out.println(closestNumber(n, m));
         }
-
+        sc.close();
     }
 }
