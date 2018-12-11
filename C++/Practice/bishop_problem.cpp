@@ -1,3 +1,7 @@
+// This is the solution to the Bishop Problem
+// i.e the maximum number of bishops that can be
+// placed on a NxN chessboard that don't collide
+
 #include<iostream>
 using namespace std;
 
