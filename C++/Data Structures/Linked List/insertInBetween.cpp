@@ -1,3 +1,7 @@
+/*
+    Also known as the insertAfter function in Linked List.
+    Time Complexity : O(1), as it does constant amount of work.
+*/
 #include<iostream>
 using namespace std;
 
