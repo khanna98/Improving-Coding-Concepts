@@ -1,3 +1,8 @@
+/*
+    Pros: Easy to implement. Memory is saved as pointers are not involved.
+    Cons: It is not dynamic. It doesn’t grow and shrink depending on needs at runtime.
+*/
+
 #include<iostream>
 #define MAX 1000
 using namespace std;
