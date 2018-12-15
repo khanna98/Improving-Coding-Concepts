@@ -1,3 +1,10 @@
+/*
+    Also known as Appending a number in Linked List.
+    Time Complexity =   O(n), where n is the number of nodes.
+    For optimising the function, we can add an extra pointer in the last(tail of Linked List).
+    This operation will reduce the Time Complexity to O(1).
+*/
+
 #include<iostream>
 using namespace std;
 
