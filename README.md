@@ -3,7 +3,7 @@
 - Feel free to look at the code and use it. :+1:
 
 ### How to use
-1. Clone into this repository. :sunglasses:
+1. Clone this repository. :sunglasses:
 2. Boom :boom: use the algorithms.:smirk:
 
 ### Want to Contribute ?
