@@ -10,4 +10,4 @@
 1. Clone into this repository. :sunglasses:
 2. Write your algorithm. :punch:
 3. Submit the pull request with proper description and some screenshots. :ok_hand:
-4. Wait for the reviews and Boom :boom: your code is right here. :100:
+4. Wait for the reviews, till your code is right here. :100:
