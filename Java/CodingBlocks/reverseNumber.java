@@ -14,5 +14,6 @@ class file{
             n = n/10;
         }
         System.out.println(ans);
+        sc.close();
     }
 }
