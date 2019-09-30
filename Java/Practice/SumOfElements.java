@@ -1,17 +1,17 @@
 import java.util.Scanner;
+import java.io.*;
 
 class SumOfElements{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        // Array Elements
+
         int arr[] = {1,2,3,4,5};
         
-        // Enter the sum
+      
         int x = sc.nextInt();
 
         int i=0,j=1;
-        // int maxL = Integer.MIN_VALUE;
-        // int secL = Integer.MIN_VALUE;
+       
         int sum=0;
         int flag=0;
         while(i<arr.length){  
