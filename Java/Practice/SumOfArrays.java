@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+import java.io.*;
 class SumOfArrays{
     public static int[] findSum(int[] a,int[] b,int n,int m){
 		// array to store sum. 
